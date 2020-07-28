@@ -23,4 +23,4 @@ layout = Layout(;
 )
 p = PlotlyJS.plot([trace], layout)
 
-Utils.myfdplotly(p) # hide
+fdplotly(json(p); style="") # hide
